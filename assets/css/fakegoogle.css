@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*Header section*/
+/*
+body{
+    height: 100vh;
+} */
+.headnav {
+    display: grid;
+    grid-template-columns: 50px 50px 35px 50px;
+    grid-template-rows: 40px;
+    justify-content: end;
+    list-style: none;  
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.btn{
+    border-radius: 80px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(146, 21, 196, 0.822);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.headnav img{
+    height: 30px;
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.headnav a{
+    color: rgba(88, 84, 84, 0.925);   
+}
+
+/*main section*/
+input{
+    border-radius: 1.5em;
+    padding: 0px 8px;
+    height: 45px;
+    width: 600px;
+    border: 1px solid rgba(83, 69, 69, 0.144);
+
+}
+
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container-image{
+    margin-bottom: 25px;
+    /*margin-top: 50px;*/
+}
+
+.gsearch, .lucky{
+    padding: 8px 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: none;
+    color: rgb(51, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+/*footer section*/
+footer{
+    position: absolute;
+    bottom: 0;
+    line-height: 1.5em;
+    background-color: rgba(194, 181, 181, 0.205);
+    /*padding: 0px 8px;*/
+    width: 100vw;
+    left: 0;
+    border: 0.1px solid rgba(240, 237, 237, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.footnav{
+    display: grid;
+    grid-template-columns: 80px 70px 50px 1fr 60px 50px 50px;
+    grid-template-rows: 40px;
+    align-items: center;
+    padding:0px 15px;
+    }
+
+.foot-paragraph{
+    border: 0.1px solid rgba(221, 209, 209, 0.486);
+    padding-left: 15px;
+    margin: 0;
+    line-height: 2.5em;
+    color: rgba(88, 84, 84, 0.925);
+}
+
+a .advert, .business, .about, .hsw, .privacy, .terms, .settings{
+    color: rgba(88, 84, 84, 0.925);
+}
