@@ -1,21 +1,28 @@
 html{
     margin: 0;
     padding: 0;
-    width: 100vw;
+    /*width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 /*Header section*/
-/*
-body{
-    height: 100vh;
-} */
+
 .headnav {
-    display: grid;
+   /* display: grid;
     grid-template-columns: 50px 50px 35px 50px;
     grid-template-rows: 40px;
-    justify-content: end;
+    justify-content: end;*/
+
+    /*above also works with line 24-27 but understand 
+    use of grid more OR use below*/
+
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    position: absolute;
+    right: 10px;
+    top: 7px;
     list-style: none;  
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -61,6 +68,14 @@ input{
     margin-top: 150px;
 }
 
+.container-paragraph{
+    display: flex;
+    justify-content: space-between;
+    width: 18vw;
+    position: absolute;
+    left: 41vw;
+}
+
 .container-image{
     margin-bottom: 25px;
     /*margin-top: 50px;*/
@@ -88,21 +103,41 @@ footer{
     border: 0.1px solid rgba(240, 237, 237, 0.911);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    height: 80px;
 }
 
 .footnav{
+    display: inline-flex;
+    justify-content:space-between;
+    width: 310px;
+    position: absolute;
+    left: 10px;
+    bottom: 7px;
+}
+
+.footnav2{
+    display: flex;
+    /*justify-content: flex-end;*/
+    justify-content:space-between;
+    width: 150px;
+    position: absolute;
+    right: 10px;
+    bottom: 7px;
+}
+
+/*.footnav{
     display: grid;
     grid-template-columns: 80px 70px 50px 1fr 60px 50px 50px;
     grid-template-rows: 40px;
     align-items: center;
     padding:0px 15px;
-    }
+    }*/
 
 .foot-paragraph{
     border: 0.1px solid rgba(221, 209, 209, 0.486);
     padding-left: 15px;
     margin: 0;
-    line-height: 2.5em;
+    line-height: 3em;
     color: rgba(88, 84, 84, 0.925);
 }
 
